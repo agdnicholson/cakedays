@@ -1,6 +1,6 @@
-# Project Title
+# CakeDays
 
-CakeDays App that takes in a birthdays CSV file and works out 
+A CakeDays App that takes in a birthdays CSV file and works out 
 	when employees will get cake this calendar year.
 The calculation will be based on a set out of rules:
 
@@ -28,6 +28,8 @@ A birthdays.csv file is necessary in the root directory of the project.
 The file should contain a name on each line, a comma and their birthday. 
 For example: Dave, 1986-06-26
 See birthdays-example.csv for a comprehensive example.
+You can run "cp birthdays-example.csv birthdays.csv" to create the initial 
+	birthdays example file for the app to be able to run.
 
 The app itself does not require installation and can be run simply 
 	by running the following CLI command in the project directory:
@@ -42,7 +44,7 @@ The following command should run the tests:
 ### Prerequisites
 
 Tested with PHP 7.3.11
-Older versions will probably work however.
+Older versions of PHP 7 will probably work but are not guaranteed to be compatible.
 
 ## Built With
 

@@ -25,20 +25,28 @@ Export is in CSV file.
 ## Getting Started
 
 A birthdays.csv file is necessary in the root directory of the project. 
+
 The file should contain a name on each line, a comma and their birthday. 
-For example: Dave, 1986-06-26
+For example: Dave, 1986-06-26.
+
 See birthdays-example.csv for a comprehensive example.
+
 You can run "cp birthdays-example.csv birthdays.csv" to create the initial 
 	birthdays example file for the app to be able to run.
 
 The app itself does not require installation and can be run simply 
 	by running the following CLI command in the project directory:
+
 php cakedays-app.php
 
 To run the tests however:
+
 Please run "composer install". 
+
 This should restore the vendor directory for the PHPUnit test framework.
+
 The following command should run the tests:
+
 ./vendor/bin/phpunit tests
 
 ### Prerequisites

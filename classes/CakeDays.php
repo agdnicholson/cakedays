@@ -482,7 +482,7 @@ class CakeDays {
 			* The valid date check is attributed to Jon & Martin
 			*	in response to the stackoverflow question.
 			*	See: https://stackoverflow.com/questions/13194322/php-regex-to-check-date-is-in-yyyy-mm-dd-format
-	        */
+			*/
 			$dt = DateTime::createFromFormat("Y-m-d", $birthday);
 			if (!($dt !== FALSE && !array_sum($dt::getLastErrors()))) {
 				$this->cakeDaysExportArr = ["error" => "Invalid birthdate supplied"];

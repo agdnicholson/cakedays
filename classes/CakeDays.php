@@ -6,7 +6,7 @@
 * Class that takes in array of birthdays and can work out
 *	when people receive cakes this year based on a set of rules.
 *	
-* **************  Version history *****************
+* ************** Version history *****************
 * v2.0 - 14 October 2020: Fix context understanding of class and deal with year change over.
 *	- ONLY consider a certain year's cakedays.
 *	- Birthdays from late previous year can thus potentially 
@@ -24,12 +24,12 @@
 *		provided to also catch bad test cases.
 * v1.0 - 11 October 2020: Initial Version. 
 *
-* **************  Assumptions *****************
+* ************** Assumptions *****************
 * No identical names exist in input. Identical or absent names will result in error. 
 * Names sharing the same birthday (including year - exact date) is not 
 *	a problem. Birthdate strings need to be valid or error is returned.
 *
-* **************	Usage  **********************
+* ************** Usage  **********************
 * $cakeDaysObj = new CakeDays($birthdaysArr)
 * $cakeDays = $cakeDaysObj->getCakeDays();
 *
@@ -59,7 +59,7 @@
 *	["1950-07-05", "Rob"]
 * ]
 *
-* ******	OUTPUT:	associative array ***********
+* ****** OUTPUT: associative array ***********
 * [
 *	[
 *		"date" => "YYYY-MM-DD", 
